@@ -1,18 +1,27 @@
 
-public class EmpWageBuliderUCI {
+public class EmpWag {
 	public static void main(String[] args) {
 		//contanst
 		int IS_FULL_TIME=1;
+		int WAGE_RATE=20;
+		int empHr;
+		double salary;
 		//Computation
-		double empCheck=Math.floor(Math.random()*10)%2;
-		int empCheck1=(int)Math.floor(Math.random()*10)%2;
+		int empCheck=(int)Math.floor(Math.random()*10)%2;
 		if(empCheck==IS_FULL_TIME)
+		{
 			System.out.println("employee is Present");
-			else
-				System.out.println("employee is Absent");
-
+			empHr=8;
 		}
-	
+		else
+		{
+			System.out.println("employee is Absent");
+			empHr=0;	
+		}
+		salary=(WAGE_RATE*empHr);
+		System.out.println("employee salary="+salary);
+	}
 }
+
 
 
