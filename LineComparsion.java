@@ -1,5 +1,4 @@
 //Welcome to LineComparsion Program
-
 public class LineComparsion {
 		public static void main(String arg[]){
 	        double x1,x2,y1,y2;
