@@ -5,8 +5,14 @@ a safe place, ladder or a snake keeps doing till the winning spot
 
 100 is achieved.*/
 public class SnakeAndLadderProgram {
+//<<<<<<< UC2-RandomToRolldie
+	
 	public static void main(String[] args)
 	{
+		//using Random to die count b/w 1-6
+	public static void main(String[] args)
+	{
+
 		 int  diceRoll = (int)(Math.random()*6 )+1;
 		 int pos=0;
 		 System.out.println("position of player is in ="+ pos+ "rolls die "+diceRoll);	    
