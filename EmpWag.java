@@ -5,6 +5,7 @@ public class EmpWag {
 		int WAGE_RATE=20;
 		int empHr;
 		double salary;
+		double salaryForMonth;
 		//Computation
 		int empCheck=(int)Math.floor(Math.random()*10)%3;
 		
@@ -29,7 +30,11 @@ public class EmpWag {
 		}
 		}
 		salary=(WAGE_RATE*empHr);
-		System.out.println("employee salary="+salary);
+		salaryForMonth=20*salary;
+		System.out.println("employee salary is ="+salary);
+		System.out.println("employee salary for a Month is ="+salaryForMonth);
+
+		
 		
 	}
 }
